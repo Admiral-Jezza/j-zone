@@ -1,0 +1,84 @@
+body {
+    background-image:linear-gradient(rgb(36, 36, 160), rgb(17, 17, 37));
+    background-repeat: no-repeat;
+    
+    font: normal 24px Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background: url("ReimuBackground.png");
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    margin: auto;
+    width: 40%;
+}
+
+.box-1 {
+    background: rgba(11, 158, 36, 0.5);
+
+    border: rgba(4, 39, 6, 0.5) 5px solid;
+    border-radius: 15px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.title-1 {
+    text-align: center;
+}
+
+.hlist-0 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    display: inline;
+}
+
+.hlist-1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hlist-1 > li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.para-0 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para-1 {
+    font-size: 20px;
+}
+
+.heading-1 {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.box-1 img {
+    /*How to handle images wtihin divs*/
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    overflow: hidden;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
