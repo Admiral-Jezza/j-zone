@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background: url("ReimuBackground.png");
+    background: url("images/ReimuBackground.png");
     background-position-x: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
