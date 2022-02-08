@@ -15,6 +15,8 @@ body {
 .main-container {
     margin: auto;
     width: 40%;
+
+    min-height: 1000px;
 }
 
 .box-1 {
@@ -26,6 +28,18 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 
+}
+
+.box-1 img {
+    /*How to handle images wtihin divs*/
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    overflow: hidden;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-1 {
@@ -53,6 +67,16 @@ body {
     *display: inline;
 }
 
+.vlist-1 {
+    padding: 0;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.vlist-1 > li {
+    margin: 10px;
+}
+
 .para-0 {
     margin: 0;
     padding: 0;
@@ -62,6 +86,13 @@ body {
 
 .para-1 {
     font-size: 20px;
+    margin-bottom: 0;
+}
+
+.smalltext-1 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
 }
 
 .heading-1 {
@@ -71,14 +102,10 @@ body {
     text-decoration: underline;
 }
 
-.box-1 img {
-    /*How to handle images wtihin divs*/
-    max-width: 100%;
-    height: auto;
-    object-fit: fill;
-    overflow: hidden;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.centerlink-1 {
+    /*For the Home button*/
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
 }
