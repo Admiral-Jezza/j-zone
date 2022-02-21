@@ -1,7 +1,6 @@
 body {
-    background-image:linear-gradient(rgb(36, 36, 160), rgb(17, 17, 37));
+    background-image: linear-gradient(rgb(36, 36, 160), rgb(17, 17, 37));
     background-repeat: no-repeat;
-    
     font: normal 24px Arial, Helvetica, sans-serif;
 }
 
@@ -15,19 +14,15 @@ body {
 .main-container {
     margin: auto;
     width: 40%;
-
     min-height: 1000px;
 }
 
 .box-1 {
     background: rgba(11, 158, 36, 0.5);
-
     border: rgba(4, 39, 6, 0.5) 5px solid;
     border-radius: 15px;
-    
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .box-1 img {
@@ -36,7 +31,6 @@ body {
     height: auto;
     object-fit: fill;
     overflow: hidden;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,10 +55,19 @@ body {
     font-size: 16px;
 }
 
-.hlist-1 > li {
+.hlist-1 li {
     display: inline-block;
     zoom: 1;
     *display: inline;
+}
+
+.hlist-1 li a {
+    text-decoration: none;
+    color: rgb(9, 53, 24)
+}
+
+.hlist-1 li a:hover {
+    color: rgb(161, 224, 182)
 }
 
 .vlist-1 {
@@ -73,8 +76,17 @@ body {
     list-style-type: none;
 }
 
-.vlist-1 > li {
+.vlist-1 li {
     margin: 10px;
+}
+
+.vlist-1 li a {
+    text-decoration: none;
+    color: rgb(9, 53, 24)
+}
+
+.vlist-1 li a:hover {
+    color: rgb(161, 224, 182)
 }
 
 .para-0 {
