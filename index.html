@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>USS SNEED</title>
-        <link rel="stylesheet" href="homeStyle.css">
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
-    </head>
-    <body>
-        <div class="background">
-            <div class="main-container">
-                <div class="box-1">
-                    <h1 class="title-1">Hello, World!</h1>
+<script>
+    const msgArray = ["Go to the wikipedia page for the USS North Carolina (BB-55), look for the second citation [45] under the Battleship Memorial secion!",
+        "¯＼_(ツ)_/¯",
+        "On the internet all women are men and all kids are FBI agents",
+        "people who play vrchat walk around in big tiddy mommy milker avatars and then wonder why they get gender dysphoria",
+        "youtube.com/watch?v=iik25wqIuFo",
+        "Cool it with the anti-semitic remarks.",
+        "+52° 28′ 47.14″, +62° 11′ 8.38",
+        "あなたはバカです",
+        "What? You think you're pretty? You're so confident about yourself 'I'm so pretty I'm the prettiest girl on TikTok' NO! You're: Black Ugly Nigger Piece of shit Stranger Asshole Dumb asshole Shitface Die of cancer And I can't wait until the day you die because you have the corona virus, okay? And I'm done, I'm not gonna talk to you anymore I'm gonna blocking you right now because I don't talk to little shits and I don't talk to whores, okay?",
+        "Maybe you should try getting a job"
+    ];
+    let x = Math.random() * 10;
+    if (x == 10) {
+        x - 1;
+    }
+    x = Math.round(x);
 
-                    <ul class="hlist-1">
-                        <li><p>Admiral Jezza#8380</p></li>
-                        <li></li>
-                        <li><a href="https://steamcommunity.com/id/basedboi/" target="_blank">Steam Profile</a></li>
-                        <li></li>
-                        <li><a href="https://myanimelist.net/profile/Admiral_Jezza" target="_blank">MAL</a></li>
-                    </ul>
+    window.onload = function() {
+        document.getElementById("msgtest").innerHTML = msgArray[x];
+    }
+</script>
 
-                    <p class="para-1">
-                        Hey hey people, Admiral Jezza here, this is my personal site I threw together to show off various things I worked on, and to learn HTML and CSS.
-                        <br>
-                        <br>
-                        Interested in aviation, crypto & stock trading, history, tech, & 日本語.
-                        <br>
-                        I have TF2, WOWS, CSGO, HOI4, EU4, and Rocket League, add me on discord if you wanna talk or play!
-                        <br>
-                        <br>
-                        <p class="smalltext-1">(Site will probably only display properly on 1080p monitors)</p>
-                    </p>
+<head>
+    <title>🤣</title>
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
 
-                    <h4 class="heading-1">Projects, Games, Mods, etc</h4>
-                    <ul class="vlist-1">
-                        <li><a href="strandedbuckos.html">Stranded Buckos</a> - A survival game</li>
-                        <li>HOI4 Mods - National Focus & Nation Mods</li>
-                        <li><a href="eu4mods.html">EU4 Mods</a> - Map Mods</li>
-                        <li>3D Models - Maya</li>
-                        <li>Others</li>
-                    </ul>
+<body>
+    <div class="background">
+        <div class="main-container">
+            <div class="box-1">
+                <h1 class="title-1">Hello, World!</h1>
+
+                <ul class="hlist-1">
+                    <li>
+                        <p>Jezza#4646</p>
+                    </li>
+                    <li></li>
+                    <li><a href="https://steamcommunity.com/id/basedboi/" target="_blank">Steam Profile</a></li>
+                    <li></li>
+                    <li><a href="https://myanimelist.net/profile/Admiral_Jezza" target="_blank">MAL</a></li>
+                </ul>
+
+                <p class="para-1">
+                    Hey hey people, Admiral Jezza here, this is my personal site I threw together to post random things I worked on, and to learn HTML, CSS & JS.
                     <br>
-                    <p class="smalltext-1">Go to the wikipedia page for the USS North Carolina (BB-55), look for the second citation [45] under the Battleship Memorial secion!</p>
+                    <br> Interested in aviation, crypto & stock trading, history, tech, & 日本語.
+                    <br> I have TF2, WOWS, CSGO, HOI4, EU4, and Rocket League, add me on discord if you wanna talk or play!
                     <br>
-                </div>
+                    <br>
+                    <p class="smalltext-1">(Site will probably only display properly on 1080p monitors)</p>
+                </p>
+
+                <h4 class="heading-1">Projects, Games, Mods, etc</h4>
+                <ul class="vlist-1">
+                    <li><a href="strandedbuckos.html">Stranded Buckos</a> - A survival game</li>
+                    <li>HOI4 Mods - National Focus & Nation Mods</li>
+                    <li><a href="eu4mods.html">EU4 Mods</a> - Map Mods</li>
+                    <li>3D Models - Maya</li>
+                    <li>Others</li>
+                </ul>
+                <br>
+                <p class="smalltext-1" id="msgtest"></p>
+                <br>
             </div>
         </div>
-        
-        
-    </body>
-    <footer>
+    </div>
 
-    </footer>
+
+</body>
+<footer>
+
+</footer>
+
 </html>
