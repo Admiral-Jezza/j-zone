@@ -12,14 +12,15 @@
         "What? You think you're pretty? You're so confident about yourself 'I'm so pretty I'm the prettiest girl on TikTok' NO! You're: Black Ugly Nigger Piece of shit Stranger Asshole Dumb asshole Shitface Die of cancer And I can't wait until the day you die because you have the corona virus, okay? And I'm done, I'm not gonna talk to you anymore I'm gonna blocking you right now because I don't talk to little shits and I don't talk to whores, okay?",
         "Maybe you should try getting a job"
     ];
+
     let x = Math.random() * 10;
-    if (x == 10) {
-        x - 1;
-    }
     x = Math.round(x);
+    if (x == 10) {
+        x = x - 1;
+    }
 
     window.onload = function() {
-        document.getElementById("msgtest").innerHTML = msgArray[x];
+        document.getElementById("msgtest").innerHTML = msgArray[x] + " " + x;
     }
 </script>
 
