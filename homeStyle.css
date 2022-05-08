@@ -17,6 +17,14 @@ body {
     min-height: 1000px;
 }
 
+@media (max-width: 500px) {
+    .main-container {
+        margin: auto;
+        width: 80%;
+        min-height: 1000px;
+    }
+}
+
 .box-1 {
     background: rgba(11, 158, 36, 0.5);
     border: rgba(4, 39, 6, 0.5) 5px solid;

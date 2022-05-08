@@ -14,7 +14,15 @@ const msgArray = ["Go to the wikipedia page for the USS North Carolina (BB-55), 
     "Traps are not gay",
     "Welcome to the FBI watchlist",
     "and you don't seem to understand",
-    "C'mon Poland, you know you wanna press the Article 5 button!"
+    "C'mon Poland, you know you wanna press the Article 5 button!",
+    "The power factor of a hot dog is exactly 1 <br>-BigClive",
+    "Playing <b>Hearts of Iron IV</br>",
+    "I've become so much like Eren Jaeger it's scary. I wear black cardigans, verbally assault women, and physically assault my friends.",
+    "I have to return some video tapes.",
+    "John McAfee didn't Epstein himself.",
+    "Never believe anything in politics until it has been officially denied <br>-Otto von Bismarck",
+    "BORN TO FEEL <br>WORLD IS A SAD <br>鬼神 Everything is Pain 2008 <br>I am hopeless man <br>757,864,530 DAYS WASTED",
+    "Don't trust the corn syrup"
 ];
 //Not all escape characters work (\\ does but not \n) - if not just use html ones instead like <br>
 
