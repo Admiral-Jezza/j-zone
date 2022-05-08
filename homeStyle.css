@@ -17,11 +17,27 @@ body {
     min-height: 1000px;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 1440px) {
     .main-container {
-        margin: auto;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 960px) {
+    .main-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-container {
         width: 80%;
-        min-height: 1000px;
     }
 }
 
