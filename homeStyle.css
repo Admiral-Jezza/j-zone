@@ -17,7 +17,7 @@ body {
     min-height: 1000px;
 }
 
-@media (max-width: 500px) {
+@media (orientation: portrait) {
     .main-container {
         margin: auto;
         width: 80%;
