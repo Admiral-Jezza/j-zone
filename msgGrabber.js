@@ -22,12 +22,20 @@ const msgArray = ["Go to the wikipedia page for the USS North Carolina (BB-55), 
     "John McAfee didn't Epstein himself.",
     "Never believe anything in politics until it has been officially denied <br>-Otto von Bismarck",
     "BORN TO FEEL <br>WORLD IS A SAD <br>鬼神 Everything is Pain 2008 <br>I am hopeless man <br>757,864,530 DAYS WASTED",
-    "Don't trust the corn syrup"
+    "Don't trust the corn syrup",
+    "If only you knew how bad things really are.",
+    "He/Him She/Her Xim/Xir Latino/Latina Himm/Ler Zey/Zer They/Them ",
+    "<a href=\"https://www.youtube.com/watch?v=6jloSmHhMoI\" target=\"blank\">The U.N. literally tried banning Anime 💀</a>",
+    "<a href=\"https://youtu.be/5X9RUOEOoNQ\" target=\"blank\">Alex Jones Explains Neon Genesis Evangelion to Joe Rogan</a>"
 ];
 //Not all escape characters work (\\ does but not \n) - if not just use html ones instead like <br>
 
-let x = Math.floor(Math.random() * msgArray.length);
+function linePicker() {
+    let x = Math.floor(Math.random() * msgArray.length);
+    document.getElementById("randMessage").innerHTML = msgArray[x];
+}
 
 window.onload = function() {
-    document.getElementById("randMessage").innerHTML = msgArray[x];
+    linePicker();
+    setInterval(linePicker, 5000);
 }
