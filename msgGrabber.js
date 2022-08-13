@@ -37,7 +37,9 @@ const msgArray = ["Go to the wikipedia page for the USS North Carolina (BB-55), 
     "Lain Iwakura best girl",
     "Frank Amodeo: Ruler of the Terrain Empire",
     "Make Eldia Great Again",
-    "#SaveTF2"
+    "#SaveTF2",
+    "Ryanair pilot grindset: 'we paid for the whole suspension, we're gonna use the whole suspension'",
+    "If you wanna have a harem of femboys while growing opium on your front lawn, that's up to you. <br>-Count Dankula"
 ];
 //Not all escape characters work (\\ does but not \n) - if not just use html ones instead like <br>
 
