@@ -152,3 +152,11 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
+.centerlink-2 {
+    /*For regular centered buttons*/
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}

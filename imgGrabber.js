@@ -1,16 +1,11 @@
-const imgArray = [
-    "https://files.catbox.moe/wgyxdn.png",
-    "https://files.catbox.moe/p9nw5f.png",
-    "https://files.catbox.moe/87xrfe.png"
-]
+//Images in rolls folder must be .pngs and have number names only!
 
-
-let y = Math.floor(Math.random() * imgArray.length);
-
+var maxImgs = 3;
+let y = Math.floor(Math.random() * maxImgs);
 
 function imgGrab() {
     var img = document.getElementById("mainImage");
-    var imgLink = "<img src=\"" + imgArray[y] +  "\">";
+    var imgLink = "<img src=\"images/rolls/" + y + ".png\">";
     img.innerHTML = imgLink;
 }
 

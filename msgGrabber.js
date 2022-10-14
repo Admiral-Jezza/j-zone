@@ -40,7 +40,9 @@ const msgArray = ["Go to the wikipedia page for the USS North Carolina (BB-55), 
     "#SaveTF2",
     "Ryanair pilot grindset: 'we paid for the whole suspension, we're gonna use the whole suspension'",
     "If you wanna have a harem of femboys while growing opium on your front lawn, that's up to you. <br>-Count Dankula",
-    "A warm thanks to the many members of the Merchants Guild, generously funding and bankrolling those videos. You are all truly wonderful have a good one."
+    "A warm thanks to the many members of the Merchants Guild, generously funding and bankrolling those videos. You are all truly wonderful have a good one.",
+    "Tresspassers will be prostituted",
+    "At Lv.30, there is a 41% chance this unit eliminates itself from the game"
 ];
 //Not all escape characters work (\\ does but not \n) - if not just use html ones instead like <br>
 
